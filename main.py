@@ -7,6 +7,7 @@ def main():
     while True:
         led.value(not led.value())  # Cambia el estado del LED
         sleep(0.1)  # Espera 1 segundo
+        print("Actualizando...")
 
 
 if __name__ == "__main__":
